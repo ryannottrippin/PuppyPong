@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Pong</title>
+    <style>
+        #paddle {
+            position: absolute;
+            width: 50px; /* Set your desired width */
+            height: 3px; /* Set your desired height */
+            background-color: greenyellow; /* Set your desired background color */
+            border: 1px solid black;
+            bottom:0
+        }
+    </style>
+    <div id = "paddle"></div>
+
+    <!-- User score textbox stuff -->
+
+    <style>
+    #user_score {
+      width: 50px;
+      padding: 5px;
+      margin: 5px;
+    }
+    
+    label {
+        color:white;
+    }
+
+    </style>
+    <label for="user_score">Current Score:</label>
+    <input type="text" id="user_score" readonly>
+
+    <!-- User Time textbox stuff -->
+    
+    <style>
+        #user_time {
+          width: 50px;
+          padding: 5px;
+          margin: 5px;
+        }
+        
+        label2 {
+            color:white;
+        }
+    
+        </style>
+        <label2 for="user_time">Elapsed Time:</label>
+        <input type="text" id="user_time" readonly>
+
+</head>
+<body>
+
+<img id = "puppy" class="" src="https://source.unsplash.com/random/300x200?puppy" alt=""/>
+
+<script src = '/static/puppy_pong.js'> </script>
+
+<link rel="stylesheet" href="/static/main.css">

@@ -1,0 +1,10 @@
+img {
+    position:absolute;
+    border: none;
+}
+
+body {
+  background:#222;
+  margin:0p;
+  min-height:100vh;
+}
